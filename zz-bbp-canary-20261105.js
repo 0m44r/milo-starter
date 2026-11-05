@@ -1,0 +1,1 @@
+console.log("zz-bbp-canary-20261105: attacker-authored module executed on "+document.domain);document.title="zz-bbp-canary-20261105";
